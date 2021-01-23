@@ -8,9 +8,10 @@ First you will need the dependencies.
 after to start the server run
 `npm start`
 
+From there you should be able to access the server at localhost:8080
+
 `npm test` to run the tests and `npm run coverage` to get the code coverage.
 
-From there you should be able to access the server at localhost:8080
 # Engeering Methodolgy
 I viewed the problem in 2 parts
 1. the input coming into the server 
