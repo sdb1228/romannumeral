@@ -1,7 +1,7 @@
 {
   "name": "adobeInterview",
   "version": "1.0.0",
-  "description": "https://en.wikipedia.org/wiki/Roman_numerals#Vinculum why i chose express over http",
+  "description": "Number to Roman Numeral Calculator",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -12,9 +12,10 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Steven Burnett",
   "license": "ISC"
 }
