@@ -1,7 +1,7 @@
 const request = require('supertest')
 const app = require('./app')
 
-describe('Get romannmeral', () => {
+describe('Get romannumeral', () => {
   test("It should return roman numeral if one is provided in query", done => {
     request(app)
       .get("/romannumeral?query=1")
@@ -28,7 +28,7 @@ describe('Get romannmeral', () => {
         done();
       });
   });
-  test("It should return 400 if NaN is Provided", done => {
+  test("It should return 400 if NaN is provided", done => {
     request(app)
       .get("/romannumeral?query=\"not a number\"")
       .then(response => {
